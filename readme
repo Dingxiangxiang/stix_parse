@@ -1,1 +1,6 @@
 执行main函数即可生成stix文件
+大模型的方案，见脚本 大模型方案.py
+通义千问的部署在qwen_deploy.py里面，这个是部署在我们公司的机器上，外网无法访问
+其中还使用的deepseek大模型，这个是调的官网的api，用于补充qwen对hash值的结果，因为qwen提取hash效果不是很好
+提取结果在out_extract_info.text里面，由于之前已经写了转stix_json的脚本，所以这里没有再重复写
+
