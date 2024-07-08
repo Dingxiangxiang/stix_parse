@@ -2,7 +2,7 @@ import PyPDF2
 import requests
 from openai import OpenAI
 import json, re
-client = OpenAI(api_key="sk-83ab427e0ac74adeb102e0daa77a3ee7", base_url="https://api.deepseek.com")  # deepseek调用
+client = OpenAI(api_key="sk-83ab***********ee7", base_url="https://api.deepseek.com")  # deepseek调用
 
 mypdf = open('black-basta-parse.pdf',mode='rb')
 pdf_document = PyPDF2.PdfReader(mypdf)
